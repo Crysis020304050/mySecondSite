@@ -35,6 +35,9 @@ function onWorkClick() {
     document.body.style.overflow = 'hidden';
     const workClick = document.getElementsByClassName('workClick')[0];
     workClick.style.display = 'flex';
+    workClick.style.overflow = 'scroll';
+
+
 
     document.getElementsByClassName('closeWork ')[0].onclick = closeButton;
 
